@@ -32,28 +32,25 @@ cd computacion-paralela-distribuida
 
 # tabla de la estructura del repositorio
 
-computacion-paralela-distribuida/
-│
-├── README.md                          
-│
-├── laboratorios/
-│   ├── lab_01_mpi_openmp_hybrid/
-│   │   ├── README.md
-│   │   ├── img/
-│   │   │   ├── ej1_4procesos.png
-│   │   │   ├── ...
-|   |   |   ├
-|   |   |   |   
-│   │   ├── mpi_01_hola.c
-│   │   ├── mpi_02_hibrido.c
-│   │   ├── mpi_03_suma_hibrida.c
-│   │   └── mpi_04_speedup.c
-│   │
-│   ├── lab_02_xxxxx/
-│   │   ├── README.md
-│   │   ├── img/
-│   │   └── *.c
-│   │
-│   └── lab_03_xxxxx/
-│       └── ...
-│
+```text
+laboratorios/
+┣ lab_01_mpi_openmp_hybrid/
+┃ ┣ img/
+┃ ┃ ┣ BRAHAYANej1_1procesos.png
+┃ ┃ ┣ BRAHAYANej1_2procesos.png
+┃ ┃ ┣ BRAHAYANej1_4procesos.png
+┃ ┃ ┣ BRAHAYANej2_2x4procesos.png
+┃ ┃ ┣ BRAHAYANej2_4x4procesos.png
+┃ ┃ ┣ BRAHAYANej3_resultado.png
+┃ ┃ ┣ BRAHAYANej4_procesos.png
+┃ ┃ ┗ BRAHAYAN_equipo.png
+┃ ┣ mpi_01_hola.c
+┃ ┣ mpi_01_hola.exe
+┃ ┣ mpi_02_hibrido.c
+┃ ┣ mpi_02_hibrido.exe
+┃ ┣ mpi_03_suma_hibrida.c
+┃ ┣ mpi_03_suma_hibrida.exe
+┃ ┣ mpi_04_speedup.c
+┃ ┣ mpi_04_speedup.exe
+┃ ┗ README.md
+┗ lab_02/
